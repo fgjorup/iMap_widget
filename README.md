@@ -30,6 +30,8 @@ Click a pixel to get its motor coordinates (lower left corner of the main window
 
 Once the segmentation is done and the appropriate area of interest has been found, set the imesh scan parameters
 
+![iMap screenshot](/media/iMap_screenshot.png)
+
 ### imesh parameters
 Set the fast motor and slow motor resolutions.
 
