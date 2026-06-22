@@ -7,7 +7,7 @@ import pyqtgraph as pg
 import numpy as np
 import h5py as h5
 import skimage as ski
-import resources.resources
+import resources
 from scipy.interpolate import RegularGridInterpolator
 import json
 import glob
