@@ -12,7 +12,6 @@ from scipy.interpolate import RegularGridInterpolator
 import json
 import glob
 import re
-import tango
 
 from pyqtgraph import ColorMap
 # custom colormap "grayscale_clip_upper_lower"
@@ -43,6 +42,7 @@ warnings.filterwarnings("ignore", category=RuntimeWarning, message="Degrees of f
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="Mean of empty slice")  # suppress RuntimeWarning
 
 try:
+    import tango
     pathfixer = tango.DeviceProxy("b304a/ctl/sdm-01")
 except:
     pathfixer = None
